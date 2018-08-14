@@ -1,0 +1,18 @@
+<!Doctype html>
+<html dir="rtl" lang="fa">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            <?php
+                if (isset($p_title)) {
+                    echo $p_title ;
+                }
+                else{
+                    echo "پرُسَپ اپلیکیشن پرسش و پاسخ";
+                }
+            ?>
+        </title>
+        <link rel="stylesheet" href="<?= asset("css/style.css") ;?>">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
