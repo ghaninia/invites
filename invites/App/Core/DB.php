@@ -4,9 +4,9 @@ class DB
 {
     use Paginate ;
     private $host = "localhost" ;
-    private $database = "pquorair_porsa_db" ;
-    private $username = "pquorair_SuPorsa" ;
-    private $password = "!zG+}M;#Wdff" ;
+    private $database = "" ;
+    private $username = "" ;
+    private $password = "" ;
     private $conn , $where , $method , $select , $join , $lJoin , $rJoin , $whereIn ,$first , $last , $orderBy , $limit;
     protected static $table ;
 
