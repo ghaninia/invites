@@ -8,7 +8,6 @@
                     echo $p_title ;
                 }
                 else{
-                    echo "پرُسَپ اپلیکیشن پرسش و پاسخ";
                 }
             ?>
         </title>
