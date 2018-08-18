@@ -6,8 +6,6 @@
                         <div class="card_text">
                             <?php
                             printf("<h2>%s %s</h2>" , $user['name'] , $user['family'] ) ;
-                            echo "<p>شما را برای عضویت در پُرسَپ دعوت نموده است.</p>" ;
-                            echo "<p>پرُسَپ اپلیکیشن پرسش و پاسخ</p>" ;
                             //printf('<a href="mailto:%s">%s</a>' , $user['email'] , $user['email']) ;
                             ?>
                         </div>
