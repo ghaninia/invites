@@ -52,9 +52,10 @@ Route::disptach() ;
 use App\Core\Route ; 
 Route::get("/" , "MainController@index" , "mainPage") ;
 Route::get("/post/(:num)" , "MainController@post" , "post") ;
+
+
 //Controller folder 
 //folder App\Controller
-
 use App\Controller\MainController ;
 use App\Core\Controller;
 class MainController extends Controller {
@@ -86,5 +87,10 @@ class MainController extends Controller {
       }
       
 }
+</pre>
+<pre lang='php'>
+Route::currentRouteName() ; // The name of the route shows me the current page
+Route::currentRouteMethod() ; // The method of the route shows me the current page
+abort(404 , 'description') ; // Redirects to page 404 and displays the message
 </pre>
 
