@@ -94,3 +94,15 @@ Route::currentRouteMethod() ; // The method of the route shows me the current pa
 abort(404 , 'description') ; // Redirects to page 404 and displays the message
 </pre>
 
+<h1>USE Request and Response</h1>
+1 - import namespace Request,Response Class  
+<pre lang='php'>
+Request::input('fieldName' , 'default') ; // return Field Value IF exists otherwise return default
+Request::only(['filedNames']) ; 
+Request::except(['except filedNames']) ;
+Request::method() ; //What method is used?
+Request::ajax() ; // Is ajax request?
+Request::ip() ; // Applicant ip
+Request::agent() ; // Applicant user agent
+</pre>
+
