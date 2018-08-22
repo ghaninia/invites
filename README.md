@@ -95,7 +95,7 @@ abort(404 , 'description') ; // Redirects to page 404 and displays the message
 </pre>
 
 <h1>USE Request and Response</h1>
-<h5>1 - import namespace Request,Response Class</h5>
+<h5>1 - use Request,Response Class</h5>
 <pre lang='php'>
 Request::input('fieldName' , 'default') ; // return Field Value IF exists otherwise return default
 Request::only(['filedNames']) ; 
@@ -105,5 +105,9 @@ Request::ajax() ; // Is ajax request?
 Request::ip() ; // Applicant ip
 Request::agent() ; // Applicant user agent
 Request::user() ; // If the user login, then show me the information
+--- 
+Response::json(['key' => $value , ... ]) ;
+Response::download("file link") ;
+
 </pre>
 
