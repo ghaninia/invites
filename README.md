@@ -5,7 +5,7 @@ Invites is a mini sample mvc freamwork , Open source PHP router , Query Builder 
 1 - install Composer <br>
 2 - Open the cmd and type in it and then press enter ...<br>
 <code langauge="php">
-composer init
+composer install
 </code><br>
 3 - Pase the core file in your project.<br>
 4 - Set namespace In Composer Default namespace is App\Core and ReWrite in Core Files<br>
